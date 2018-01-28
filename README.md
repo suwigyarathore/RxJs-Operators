@@ -25,3 +25,5 @@ After cloning open **index.html** in any browser and keep on uncommenting the re
 * **merge-map.js**: Its a pretty handy & complicated operator at same time. It can be used when u want to merge to observable and get combined value. But its catch is you don't get any emitted value until inner observable emitted value.
 
 * **switch-map.js**: I call this one of the masterpieces in rxjs operator.It switches from last stream to new stream and unsubscribe the last one.
+
+* **behaviour-subject.js**: This one behaves almost exactly like subject the additional feature it has is that it has default starting value which is missing in subject
