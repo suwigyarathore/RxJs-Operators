@@ -23,3 +23,5 @@ After cloning open **index.html** in any browser and keep on uncommenting the re
 * **pluck.js**: Pluck acts like a smarter way of getting values out of objects in streams and get stream of only that in funnel
 
 * **merge-map.js**: Its a pretty handy & complicated operator at same time. It can be used when u want to merge to observable and get combined value. But its catch is you don't get any emitted value until inner observable emitted value.
+
+* **switch-map.js**: I call this one of the masterpieces in rxjs operator.It switches from last stream to new stream and unsubscribe the last one.
